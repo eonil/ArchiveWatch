@@ -621,13 +621,13 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="bRg-vr-ddS"/>
-                            <menuItem title="Prior Image" keyEquivalent="" id="kqU-dh-oQi">
+                            <menuItem title="Prior Image" keyEquivalent="" id="kqU-dh-oQi">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="stepBackward:" target="-1" id="MIh-Ph-hdH"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Next Image" keyEquivalent="" id="Nog-0A-cwg">
+                            <menuItem title="Next Image" keyEquivalent="" id="Nog-0A-cwg">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="stepForward:" target="-1" id="b26-s9-Iny"/>
