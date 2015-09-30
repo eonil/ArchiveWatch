@@ -19,20 +19,21 @@ class WatchModel {
 
 	convenience init(location: NSURL) throws {
 		guard let ext = location.pathExtension else {
-			throw	NSError(domain: NSCocoaErrorDomain, code: NSFileNoSuchFileError, userInfo: nil)
+			throw	NSError(domain: NSCocoaErrorDomain, code: NSFileReadUnknownError, userInfo: nil)
 		}
 		switch ext.lowercaseString {
 		case "rar":
-			self.init(archive: try RARArchive(location: location))
+			try self.init(archive: try RARArchive(location: location))
 		case "zip":
-			self.init(archive: try ZIPArchive(location: location))
+			try self.init(archive: try ZIPArchive(location: location))
 		default:
-			throw	NSError(domain: NSCocoaErrorDomain, code: NSFileNoSuchFileError, userInfo: nil)
+			throw	NSError(domain: NSCocoaErrorDomain, code: NSFileReadUnknownError, userInfo: nil)
 		}
 	}
-	init(archive: ArchiveType) {
+	init(archive: ArchiveType) throws {
 		_archive	=	archive
-		_filesCache	=	try! _archive.extractFileList()
+		_filesCache	=	try _archive.extractFileList().sort()
+		print(try _archive.extractFileList())
 
 		if numberOfFiles > 0 {
 			selectionIndex	=	0
@@ -85,7 +86,7 @@ class WatchModel {
 	///
 
 	private let	_archive	:	ArchiveType
-	private let	_filesCache	:	[String]
+	private var	_filesCache	=	[String]()
 	private let	_chan		=	CastableChannel<Signal>()
 }
 

@@ -48,7 +48,7 @@ final class RARArchive: ArchiveType {
 final class ZIPArchive: ArchiveType {
 	init(location: NSURL) throws {
 		guard let path = location.path else {
-			throw	NSError(domain: NSCocoaErrorDomain, code: NSFileNoSuchFileError, userInfo: nil)
+			throw	NSError(domain: NSCocoaErrorDomain, code: NSFileReadUnknownError, userInfo: nil)
 		}
 		_arc	=	try OZZipFile(fileName: path, mode: OZZipFileMode.Unzip)
 	}
@@ -71,7 +71,7 @@ final class ZIPArchive: ArchiveType {
 		var	error	:	NSError?
 		let	readLen	=	read.readDataWithBuffer(buffer, error: &error)
 		guard readLen == UInt(info.length) else {
-			throw	NSError(domain: NSCocoaErrorDomain, code: NSFileNoSuchFileError, userInfo: nil)
+			throw	NSError(domain: NSCocoaErrorDomain, code: NSFileReadUnknownError, userInfo: nil)
 		}
 		return	buffer
 	}

@@ -346,6 +346,7 @@
 				TargetAttributes = {
 					45F4C61A1BBC1CA100479FB5 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = SYA75M63MP;
 					};
 					45F4C62E1BBC1CA100479FB5 = {
 						CreatedOnToolsVersion = 7.0.1;
