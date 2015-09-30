@@ -639,6 +639,13 @@
                                     <action selector="step:" target="-1" id="LnX-Hn-wHi"/>
                                 </connections>
                             </menuItem>
+                            <menuItem isSeparatorItem="YES" id="CUl-iK-pLZ"/>
+                            <menuItem title="Enter Full Screen" keyEquivalent="f" id="fnW-1Z-v18">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="toggleFullScreen:" target="-1" id="bE9-nE-5Fa"/>
+                                </connections>
+                            </menuItem>
                         </items>
                     </menu>
                 </menuItem>
