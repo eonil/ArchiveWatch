@@ -1,0 +1,3 @@
+[submodule "submodules/UnrarKit"]
+	path = submodules/UnrarKit
+	url = https://github.com/Eonil/UnrarKit
