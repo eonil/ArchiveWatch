@@ -36,14 +36,6 @@ class ImageWatchUI {
 
 	///
 
-	var data: String? {
-		didSet {
-
-		}
-	}
-
-	///
-
 	var viewController: NSViewController {
 		get {
 			return	_vc
@@ -99,6 +91,7 @@ private class _VC: NSViewController {
 		super.viewDidLoad()
 		nameLabel.bordered	=	false
 		nameLabel.editable	=	false
+		imageView.imageScaling	=	NSImageScaling.ScaleProportionallyUpOrDown
 		view.addSubview(imageView)
 //		view.addSubview(nameLabel)
 	}
