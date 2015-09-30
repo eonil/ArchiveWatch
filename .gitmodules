@@ -1,3 +1,6 @@
 [submodule "submodules/UnrarKit"]
 	path = submodules/UnrarKit
 	url = https://github.com/Eonil/UnrarKit
+[submodule "submodules/Objective-Zip"]
+	path = submodules/Objective-Zip
+	url = https://github.com/Eonil/Objective-Zip

@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45F4C61F1BBC1CA100479FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4C61E1BBC1CA100479FB5 /* AppDelegate.swift */; };
+		45F4C6261BBC1CA100479FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F4C6251BBC1CA100479FB5 /* Assets.xcassets */; };
+		45F4C6291BBC1CA100479FB5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F4C6271BBC1CA100479FB5 /* MainMenu.xib */; };
+		45F4C6341BBC1CA100479FB5 /* ArchiveWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4C6331BBC1CA100479FB5 /* ArchiveWatchTests.swift */; };
+		45F4C63F1BBC1CA100479FB5 /* ArchiveWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4C63E1BBC1CA100479FB5 /* ArchiveWatchUITests.swift */; };
+		45F4C6911BBC23A800479FB5 /* UnrarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F4C6881BBC239800479FB5 /* UnrarKit.framework */; };
+		45F4C6921BBC23A800479FB5 /* UnrarKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45F4C6881BBC239800479FB5 /* UnrarKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		45F4C6971BBC23B900479FB5 /* ArchiveDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4C6961BBC23B900479FB5 /* ArchiveDocument.swift */; settings = {ASSET_TAGS = (); }; };
+		45F4C6991BBC249500479FB5 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4C6981BBC249500479FB5 /* Archive.swift */; settings = {ASSET_TAGS = (); }; };
+		45F4C69B1BBC279F00479FB5 /* WatchUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4C69A1BBC279F00479FB5 /* WatchUI.swift */; settings = {ASSET_TAGS = (); }; };
+		45F4C69D1BBC28AA00479FB5 /* ImageWatchUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4C69C1BBC28AA00479FB5 /* ImageWatchUI.swift */; settings = {ASSET_TAGS = (); }; };
+		45F4C69F1BBC2A2300479FB5 /* WatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4C69E1BBC2A2300479FB5 /* WatchModel.swift */; settings = {ASSET_TAGS = (); }; };
+		45F4C6A11BBC2B8A00479FB5 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4C6A01BBC2B8A00479FB5 /* Channel.swift */; settings = {ASSET_TAGS = (); }; };
+		45F4C6A31BBC2F8C00479FB5 /* CoreGraphicsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4C6A21BBC2F8C00479FB5 /* CoreGraphicsExtensions.swift */; settings = {ASSET_TAGS = (); }; };
+		45F4C6A51BBC2FC800479FB5 /* AppKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4C6A41BBC2FC800479FB5 /* AppKitExtensions.swift */; settings = {ASSET_TAGS = (); }; };
+		45F4C6D91BBC39AD00479FB5 /* ObjectiveZip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F4C6D81BBC39AD00479FB5 /* ObjectiveZip.framework */; };
+		45F4C6DA1BBC39AD00479FB5 /* ObjectiveZip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45F4C6D81BBC39AD00479FB5 /* ObjectiveZip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45F4C6301BBC1CA100479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C6131BBC1CA100479FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F4C61A1BBC1CA100479FB5;
+			remoteInfo = ArchiveWatch;
+		};
+		45F4C63B1BBC1CA100479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C6131BBC1CA100479FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F4C61A1BBC1CA100479FB5;
+			remoteInfo = ArchiveWatch;
+		};
+		45F4C6871BBC239800479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C67F1BBC239700479FB5 /* UnrarKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96EA535B1B3CB04300F79DC6;
+			remoteInfo = UnrarKit;
+		};
+		45F4C6891BBC239800479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C67F1BBC239700479FB5 /* UnrarKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 964C8ABB18D28EE000AD7321;
+			remoteInfo = "UnrarKit Tests";
+		};
+		45F4C68B1BBC239800479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C67F1BBC239700479FB5 /* UnrarKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9699F9DA1B3CB83100B6D373;
+			remoteInfo = "UnrarKit iOS";
+		};
+		45F4C68D1BBC239800479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C67F1BBC239700479FB5 /* UnrarKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96F5BBB11B39A65F00ACB162;
+			remoteInfo = "UnrarKit iOS Tests";
+		};
+		45F4C68F1BBC239800479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C67F1BBC239700479FB5 /* UnrarKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96EA532E1B3B462D00F79DC6;
+			remoteInfo = iOSUnitTestHostApp;
+		};
+		45F4C6931BBC23A800479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C67F1BBC239700479FB5 /* UnrarKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 96EA535A1B3CB04300F79DC6;
+			remoteInfo = UnrarKit;
+		};
+		45F4C6AD1BBC390C00479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C6A61BBC390C00479FB5 /* Objective-Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CC2FC581B91E63E00D5E05F;
+			remoteInfo = "Objective-Zip";
+		};
+		45F4C6AF1BBC390C00479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C6A61BBC390C00479FB5 /* Objective-Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CC2FC621B91E63E00D5E05F;
+			remoteInfo = "Objective-Zip Tests";
+		};
+		45F4C6B11BBC390C00479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C6A61BBC390C00479FB5 /* Objective-Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CC2FC731B91E65200D5E05F;
+			remoteInfo = "Objective-Zip OS X";
+		};
+		45F4C6B31BBC390C00479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C6A61BBC390C00479FB5 /* Objective-Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CC2FC7D1B91E65200D5E05F;
+			remoteInfo = "Objective-Zip OS X Tests";
+		};
+		45F4C6D71BBC39AD00479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C6A61BBC390C00479FB5 /* Objective-Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45F4C6BA1BBC393F00479FB5;
+			remoteInfo = ObjectiveZip;
+		};
+		45F4C6DB1BBC39AD00479FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F4C6A61BBC390C00479FB5 /* Objective-Zip.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F4C6B91BBC393F00479FB5;
+			remoteInfo = ObjectiveZip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45F4C6951BBC23A800479FB5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				45F4C6DA1BBC39AD00479FB5 /* ObjectiveZip.framework in Embed Frameworks */,
+				45F4C6921BBC23A800479FB5 /* UnrarKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		45F4C61B1BBC1CA100479FB5 /* ArchiveWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchiveWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F4C61E1BBC1CA100479FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45F4C6251BBC1CA100479FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F4C6281BBC1CA100479FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		45F4C62A1BBC1CA100479FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F4C62F1BBC1CA100479FB5 /* ArchiveWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchiveWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F4C6331BBC1CA100479FB5 /* ArchiveWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveWatchTests.swift; sourceTree = "<group>"; };
+		45F4C6351BBC1CA100479FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F4C63A1BBC1CA100479FB5 /* ArchiveWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchiveWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F4C63E1BBC1CA100479FB5 /* ArchiveWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveWatchUITests.swift; sourceTree = "<group>"; };
+		45F4C6401BBC1CA100479FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F4C67F1BBC239700479FB5 /* UnrarKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UnrarKit.xcodeproj; path = ../../submodules/UnrarKit/UnrarKit.xcodeproj; sourceTree = "<group>"; };
+		45F4C6961BBC23B900479FB5 /* ArchiveDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveDocument.swift; sourceTree = "<group>"; };
+		45F4C6981BBC249500479FB5 /* Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
+		45F4C69A1BBC279F00479FB5 /* WatchUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchUI.swift; sourceTree = "<group>"; };
+		45F4C69C1BBC28AA00479FB5 /* ImageWatchUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageWatchUI.swift; sourceTree = "<group>"; };
+		45F4C69E1BBC2A2300479FB5 /* WatchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchModel.swift; sourceTree = "<group>"; };
+		45F4C6A01BBC2B8A00479FB5 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		45F4C6A21BBC2F8C00479FB5 /* CoreGraphicsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreGraphicsExtensions.swift; sourceTree = "<group>"; };
+		45F4C6A41BBC2FC800479FB5 /* AppKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppKitExtensions.swift; sourceTree = "<group>"; };
+		45F4C6A61BBC390C00479FB5 /* Objective-Zip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Objective-Zip.xcodeproj"; path = "../../submodules/Objective-Zip/Objective-Zip.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45F4C6181BBC1CA100479FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F4C6D91BBC39AD00479FB5 /* ObjectiveZip.framework in Frameworks */,
+				45F4C6911BBC23A800479FB5 /* UnrarKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F4C62C1BBC1CA100479FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F4C6371BBC1CA100479FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F4C6121BBC1CA100479FB5 = {
+			isa = PBXGroup;
+			children = (
+				45F4C61D1BBC1CA100479FB5 /* ArchiveWatch */,
+				45F4C6321BBC1CA100479FB5 /* ArchiveWatchTests */,
+				45F4C63D1BBC1CA100479FB5 /* ArchiveWatchUITests */,
+				45F4C61C1BBC1CA100479FB5 /* Products */,
+				45F4C67F1BBC239700479FB5 /* UnrarKit.xcodeproj */,
+				45F4C6A61BBC390C00479FB5 /* Objective-Zip.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		45F4C61C1BBC1CA100479FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45F4C61B1BBC1CA100479FB5 /* ArchiveWatch.app */,
+				45F4C62F1BBC1CA100479FB5 /* ArchiveWatchTests.xctest */,
+				45F4C63A1BBC1CA100479FB5 /* ArchiveWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45F4C61D1BBC1CA100479FB5 /* ArchiveWatch */ = {
+			isa = PBXGroup;
+			children = (
+				45F4C61E1BBC1CA100479FB5 /* AppDelegate.swift */,
+				45F4C6961BBC23B900479FB5 /* ArchiveDocument.swift */,
+				45F4C69E1BBC2A2300479FB5 /* WatchModel.swift */,
+				45F4C69A1BBC279F00479FB5 /* WatchUI.swift */,
+				45F4C69C1BBC28AA00479FB5 /* ImageWatchUI.swift */,
+				45F4C6981BBC249500479FB5 /* Archive.swift */,
+				45F4C6A01BBC2B8A00479FB5 /* Channel.swift */,
+				45F4C6A21BBC2F8C00479FB5 /* CoreGraphicsExtensions.swift */,
+				45F4C6A41BBC2FC800479FB5 /* AppKitExtensions.swift */,
+				45F4C6251BBC1CA100479FB5 /* Assets.xcassets */,
+				45F4C6271BBC1CA100479FB5 /* MainMenu.xib */,
+				45F4C62A1BBC1CA100479FB5 /* Info.plist */,
+			);
+			path = ArchiveWatch;
+			sourceTree = "<group>";
+		};
+		45F4C6321BBC1CA100479FB5 /* ArchiveWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				45F4C6331BBC1CA100479FB5 /* ArchiveWatchTests.swift */,
+				45F4C6351BBC1CA100479FB5 /* Info.plist */,
+			);
+			path = ArchiveWatchTests;
+			sourceTree = "<group>";
+		};
+		45F4C63D1BBC1CA100479FB5 /* ArchiveWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45F4C63E1BBC1CA100479FB5 /* ArchiveWatchUITests.swift */,
+				45F4C6401BBC1CA100479FB5 /* Info.plist */,
+			);
+			path = ArchiveWatchUITests;
+			sourceTree = "<group>";
+		};
+		45F4C6801BBC239700479FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45F4C6881BBC239800479FB5 /* UnrarKit.framework */,
+				45F4C68A1BBC239800479FB5 /* UnrarKit Tests.xctest */,
+				45F4C68C1BBC239800479FB5 /* UnrarKit.framework */,
+				45F4C68E1BBC239800479FB5 /* UnrarKit iOS Tests.xctest */,
+				45F4C6901BBC239800479FB5 /* iOSUnitTestHostApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45F4C6A71BBC390C00479FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45F4C6AE1BBC390C00479FB5 /* libObjective-Zip.a */,
+				45F4C6B01BBC390C00479FB5 /* Objective-Zip Tests.xctest */,
+				45F4C6B21BBC390C00479FB5 /* libObjective-Zip_OS_X.a */,
+				45F4C6B41BBC390C00479FB5 /* Objective-Zip OS X Tests.xctest */,
+				45F4C6D81BBC39AD00479FB5 /* ObjectiveZip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45F4C61A1BBC1CA100479FB5 /* ArchiveWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F4C6431BBC1CA100479FB5 /* Build configuration list for PBXNativeTarget "ArchiveWatch" */;
+			buildPhases = (
+				45F4C6171BBC1CA100479FB5 /* Sources */,
+				45F4C6181BBC1CA100479FB5 /* Frameworks */,
+				45F4C6191BBC1CA100479FB5 /* Resources */,
+				45F4C6951BBC23A800479FB5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F4C6941BBC23A800479FB5 /* PBXTargetDependency */,
+				45F4C6DC1BBC39AD00479FB5 /* PBXTargetDependency */,
+			);
+			name = ArchiveWatch;
+			productName = ArchiveWatch;
+			productReference = 45F4C61B1BBC1CA100479FB5 /* ArchiveWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45F4C62E1BBC1CA100479FB5 /* ArchiveWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F4C6461BBC1CA100479FB5 /* Build configuration list for PBXNativeTarget "ArchiveWatchTests" */;
+			buildPhases = (
+				45F4C62B1BBC1CA100479FB5 /* Sources */,
+				45F4C62C1BBC1CA100479FB5 /* Frameworks */,
+				45F4C62D1BBC1CA100479FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F4C6311BBC1CA100479FB5 /* PBXTargetDependency */,
+			);
+			name = ArchiveWatchTests;
+			productName = ArchiveWatchTests;
+			productReference = 45F4C62F1BBC1CA100479FB5 /* ArchiveWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45F4C6391BBC1CA100479FB5 /* ArchiveWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F4C6491BBC1CA100479FB5 /* Build configuration list for PBXNativeTarget "ArchiveWatchUITests" */;
+			buildPhases = (
+				45F4C6361BBC1CA100479FB5 /* Sources */,
+				45F4C6371BBC1CA100479FB5 /* Frameworks */,
+				45F4C6381BBC1CA100479FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F4C63C1BBC1CA100479FB5 /* PBXTargetDependency */,
+			);
+			name = ArchiveWatchUITests;
+			productName = ArchiveWatchUITests;
+			productReference = 45F4C63A1BBC1CA100479FB5 /* ArchiveWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45F4C6131BBC1CA100479FB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Eonil;
+				TargetAttributes = {
+					45F4C61A1BBC1CA100479FB5 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					45F4C62E1BBC1CA100479FB5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 45F4C61A1BBC1CA100479FB5;
+					};
+					45F4C6391BBC1CA100479FB5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 45F4C61A1BBC1CA100479FB5;
+					};
+				};
+			};
+			buildConfigurationList = 45F4C6161BBC1CA100479FB5 /* Build configuration list for PBXProject "ArchiveWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45F4C6121BBC1CA100479FB5;
+			productRefGroup = 45F4C61C1BBC1CA100479FB5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 45F4C6A71BBC390C00479FB5 /* Products */;
+					ProjectRef = 45F4C6A61BBC390C00479FB5 /* Objective-Zip.xcodeproj */;
+				},
+				{
+					ProductGroup = 45F4C6801BBC239700479FB5 /* Products */;
+					ProjectRef = 45F4C67F1BBC239700479FB5 /* UnrarKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				45F4C61A1BBC1CA100479FB5 /* ArchiveWatch */,
+				45F4C62E1BBC1CA100479FB5 /* ArchiveWatchTests */,
+				45F4C6391BBC1CA100479FB5 /* ArchiveWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		45F4C6881BBC239800479FB5 /* UnrarKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UnrarKit.framework;
+			remoteRef = 45F4C6871BBC239800479FB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45F4C68A1BBC239800479FB5 /* UnrarKit Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "UnrarKit Tests.xctest";
+			remoteRef = 45F4C6891BBC239800479FB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45F4C68C1BBC239800479FB5 /* UnrarKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UnrarKit.framework;
+			remoteRef = 45F4C68B1BBC239800479FB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45F4C68E1BBC239800479FB5 /* UnrarKit iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "UnrarKit iOS Tests.xctest";
+			remoteRef = 45F4C68D1BBC239800479FB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45F4C6901BBC239800479FB5 /* iOSUnitTestHostApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSUnitTestHostApp.app;
+			remoteRef = 45F4C68F1BBC239800479FB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45F4C6AE1BBC390C00479FB5 /* libObjective-Zip.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libObjective-Zip.a";
+			remoteRef = 45F4C6AD1BBC390C00479FB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45F4C6B01BBC390C00479FB5 /* Objective-Zip Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Objective-Zip Tests.xctest";
+			remoteRef = 45F4C6AF1BBC390C00479FB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45F4C6B21BBC390C00479FB5 /* libObjective-Zip_OS_X.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libObjective-Zip_OS_X.a";
+			remoteRef = 45F4C6B11BBC390C00479FB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45F4C6B41BBC390C00479FB5 /* Objective-Zip OS X Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Objective-Zip OS X Tests.xctest";
+			remoteRef = 45F4C6B31BBC390C00479FB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45F4C6D81BBC39AD00479FB5 /* ObjectiveZip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectiveZip.framework;
+			remoteRef = 45F4C6D71BBC39AD00479FB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45F4C6191BBC1CA100479FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F4C6261BBC1CA100479FB5 /* Assets.xcassets in Resources */,
+				45F4C6291BBC1CA100479FB5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F4C62D1BBC1CA100479FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F4C6381BBC1CA100479FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45F4C6171BBC1CA100479FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F4C6A11BBC2B8A00479FB5 /* Channel.swift in Sources */,
+				45F4C69B1BBC279F00479FB5 /* WatchUI.swift in Sources */,
+				45F4C69D1BBC28AA00479FB5 /* ImageWatchUI.swift in Sources */,
+				45F4C6971BBC23B900479FB5 /* ArchiveDocument.swift in Sources */,
+				45F4C6991BBC249500479FB5 /* Archive.swift in Sources */,
+				45F4C69F1BBC2A2300479FB5 /* WatchModel.swift in Sources */,
+				45F4C61F1BBC1CA100479FB5 /* AppDelegate.swift in Sources */,
+				45F4C6A51BBC2FC800479FB5 /* AppKitExtensions.swift in Sources */,
+				45F4C6A31BBC2F8C00479FB5 /* CoreGraphicsExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F4C62B1BBC1CA100479FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F4C6341BBC1CA100479FB5 /* ArchiveWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F4C6361BBC1CA100479FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F4C63F1BBC1CA100479FB5 /* ArchiveWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45F4C6311BBC1CA100479FB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45F4C61A1BBC1CA100479FB5 /* ArchiveWatch */;
+			targetProxy = 45F4C6301BBC1CA100479FB5 /* PBXContainerItemProxy */;
+		};
+		45F4C63C1BBC1CA100479FB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45F4C61A1BBC1CA100479FB5 /* ArchiveWatch */;
+			targetProxy = 45F4C63B1BBC1CA100479FB5 /* PBXContainerItemProxy */;
+		};
+		45F4C6941BBC23A800479FB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnrarKit;
+			targetProxy = 45F4C6931BBC23A800479FB5 /* PBXContainerItemProxy */;
+		};
+		45F4C6DC1BBC39AD00479FB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjectiveZip;
+			targetProxy = 45F4C6DB1BBC39AD00479FB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45F4C6271BBC1CA100479FB5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F4C6281BBC1CA100479FB5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45F4C6411BBC1CA100479FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45F4C6421BBC1CA100479FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		45F4C6441BBC1CA100479FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ArchiveWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.ArchiveWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45F4C6451BBC1CA100479FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ArchiveWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.ArchiveWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45F4C6471BBC1CA100479FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ArchiveWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.ArchiveWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchiveWatch.app/Contents/MacOS/ArchiveWatch";
+			};
+			name = Debug;
+		};
+		45F4C6481BBC1CA100479FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ArchiveWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.ArchiveWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchiveWatch.app/Contents/MacOS/ArchiveWatch";
+			};
+			name = Release;
+		};
+		45F4C64A1BBC1CA100479FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ArchiveWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.ArchiveWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ArchiveWatch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		45F4C64B1BBC1CA100479FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ArchiveWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.ArchiveWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ArchiveWatch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45F4C6161BBC1CA100479FB5 /* Build configuration list for PBXProject "ArchiveWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F4C6411BBC1CA100479FB5 /* Debug */,
+				45F4C6421BBC1CA100479FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F4C6431BBC1CA100479FB5 /* Build configuration list for PBXNativeTarget "ArchiveWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F4C6441BBC1CA100479FB5 /* Debug */,
+				45F4C6451BBC1CA100479FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F4C6461BBC1CA100479FB5 /* Build configuration list for PBXNativeTarget "ArchiveWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F4C6471BBC1CA100479FB5 /* Debug */,
+				45F4C6481BBC1CA100479FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F4C6491BBC1CA100479FB5 /* Build configuration list for PBXNativeTarget "ArchiveWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F4C64A1BBC1CA100479FB5 /* Debug */,
+				45F4C64B1BBC1CA100479FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45F4C6131BBC1CA100479FB5 /* Project object */;
+}

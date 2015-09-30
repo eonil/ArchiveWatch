@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A1D1D2EC05070619EE0DFE7DFEB755DA4F7EFA87" : 0,
+    "F17E1E91C07915BEAF282A48F9104EBF122C26E7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7F5C0130-E846-46AB-A492-CDB367A617D4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A1D1D2EC05070619EE0DFE7DFEB755DA4F7EFA87" : "ArchiveWatch\/submodules\/UnrarKit\/",
+    "F17E1E91C07915BEAF282A48F9104EBF122C26E7" : "ArchiveWatch\/submodules\/Objective-Zip\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ArchiveWatch",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "modules\/ArchiveWatch\/ArchiveWatch.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Eonil\/UnrarKit",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A1D1D2EC05070619EE0DFE7DFEB755DA4F7EFA87"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Eonil\/Objective-Zip",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F17E1E91C07915BEAF282A48F9104EBF122C26E7"
+    }
+  ]
+}
